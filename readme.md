@@ -34,22 +34,23 @@ npm start <โจทย์>
 จะรันไฟล์ src/1.shipping/index.ts
 
 ```
-npx jest src/<โจทย์>
+npx jest <โจทย์>
 ```
+
 จะรันไฟล์ src/1.shipping/index.test.ts
 
 ---
 
-### ตัวอย่าง 
+### ตัวอย่าง
 
-* run โจทย์ shipping
+- run โจทย์ shipping
 
 ```
 npm start 1.shipping
 ```
 
-* run test shipping
+- run test shipping
 
 ```
-npx jest src/1.shipping
+npx jest 1.shipping
 ```
