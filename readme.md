@@ -35,13 +35,13 @@ npm start <โจทย์>
 npm run test -- <โจทย์>
 ```
 
-# ตัวอย่าง run โจทย์ shipping
+### ตัวอย่าง run โจทย์ shipping
 
 ```
 npm start 1.shipping
 ```
 
-# ตัวอย่าง run test shipping
+### ตัวอย่าง run test shipping
 
 ```
 npx jest src/1.shipping
