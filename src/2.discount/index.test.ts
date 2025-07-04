@@ -21,4 +21,8 @@ describe("calculateNetPrice", () => {
   it("should apply 5% discount for price exactly 1000", () => {
     expect(calculateNetPrice(1000)).toBe(950);
   });
+
+  it("should not apply discount for price < 1", () => {
+    expect(calculateNetPrice(-10)).toBe(0);
+  });
 });

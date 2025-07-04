@@ -10,12 +10,12 @@
 
 Input:
 
-```
+```bash
 price: number (ราคาสินค้า)
 ```
 
 Output:
 
-```
+```bash
 number (ราคาสุทธิหลังหักส่วนลด)
 ```
