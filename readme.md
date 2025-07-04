@@ -23,6 +23,8 @@ business-logic/<br>
 npm install
 ```
 
+---
+
 ## วิธีรันแต่ละโจทย์
 
 ```
@@ -32,16 +34,21 @@ npm start <โจทย์>
 จะรันไฟล์ src/1.shipping/index.ts
 
 ```
-npm run test -- <โจทย์>
+npx jest src/<โจทย์>
 ```
+จะรันไฟล์ src/1.shipping/index.test.ts
 
-### ตัวอย่าง run โจทย์ shipping
+---
+
+### ตัวอย่าง 
+
+* run โจทย์ shipping
 
 ```
 npm start 1.shipping
 ```
 
-### ตัวอย่าง run test shipping
+* run test shipping
 
 ```
 npx jest src/1.shipping
